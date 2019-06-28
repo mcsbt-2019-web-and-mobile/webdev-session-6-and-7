@@ -9,25 +9,10 @@ const Post = props => (
 
 class App extends React.Component {
 
-  constructor() {
-    super();
-    this.state = {
-      posts: []
-    };
-  }
-
-  componentDidMount() {
-    fetch('https://hn.algolia.com/api/v1/search?query=React')
-      .then(res => res.json())
-      .then(json => this.setState({
-        posts: json.hits
-      }));
-  }
-  
+  // see the README for instructions
   render() {
-    let posts = this.state.posts.map(post => (<Post url={post.url} title={post.title}/>))
     return <div>
-      <ul className="list-group">{posts}</ul>        
+      <ul className="list-group"><Post url="https://google.com" title="this is the default post"/></ul>        
     </div>
   }
 }
