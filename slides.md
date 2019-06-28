@@ -43,4 +43,19 @@ would update the `state` of the component.
 
 Let's get some data from Hacker News!
 
-## When to do AJAX requests?
+# putting everything together
+
+## React
+
+- properties are input data for the component when rendering
+- State is the data that a component remembers. It can mutate.
+
+## React router
+
+- Routes match paths, and render components when the match happens
+- Links point to routes within your application
+
+
+## React lifecycle
+
+- Execute side effects on `componentDidMount()` method, not in `constructor`.
