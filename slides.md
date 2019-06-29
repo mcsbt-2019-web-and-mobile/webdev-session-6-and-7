@@ -59,3 +59,9 @@ Let's get some data from Hacker News!
 ## React lifecycle
 
 - Execute side effects on `componentDidMount()` method, not in `constructor`.
+
+
+# exercise2
+
+In this exercise you'll need to consider another lifecycle method:
+`componentWillReceiveProps()`. Look for it in react docs ;)

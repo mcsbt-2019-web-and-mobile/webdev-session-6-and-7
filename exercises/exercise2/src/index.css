@@ -1,0 +1,16 @@
+#root {
+    width: 80%;
+    margin: auto;
+}
+
+.sidebar {
+    float: left;
+    width: 300px;
+    font-size: 12px;
+}
+
+.main {
+    foat: right;
+    width: 100%;
+    margin-left: 30px;
+}
